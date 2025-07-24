@@ -109,35 +109,35 @@ local Devil = Instance.new("TextButton")
 local UICorner_49 = Instance.new("UICorner")
 local PuppetMaster = Instance.new("TextButton")
 local UICorner_50 = Instance.new("UICorner")
-local Button_41 = Instance.new("TextButton")
+local Neptunian = Instance.new("TextButton")
 local UICorner_51 = Instance.new("UICorner")
-local Button_42 = Instance.new("TextButton")
+local KrystalDance = Instance.new("TextButton")
 local UICorner_52 = Instance.new("UICorner")
-local Button_43 = Instance.new("TextButton")
+local GaleFighter = Instance.new("TextButton")
 local UICorner_53 = Instance.new("UICorner")
-local Button_44 = Instance.new("TextButton")
+local Goner = Instance.new("TextButton")
 local UICorner_54 = Instance.new("UICorner")
-local Button_45 = Instance.new("TextButton")
+local BanHammer = Instance.new("TextButton")
 local UICorner_55 = Instance.new("UICorner")
-local Button_46 = Instance.new("TextButton")
+local Button_41 = Instance.new("TextButton")
 local UICorner_56 = Instance.new("UICorner")
-local Button_47 = Instance.new("TextButton")
+local Button_42 = Instance.new("TextButton")
 local UICorner_57 = Instance.new("UICorner")
-local Button_48 = Instance.new("TextButton")
+local Button_43 = Instance.new("TextButton")
 local UICorner_58 = Instance.new("UICorner")
-local Button_49 = Instance.new("TextButton")
+local Button_44 = Instance.new("TextButton")
 local UICorner_59 = Instance.new("UICorner")
-local Button_50 = Instance.new("TextButton")
+local Button_45 = Instance.new("TextButton")
 local UICorner_60 = Instance.new("UICorner")
-local Button_51 = Instance.new("TextButton")
+local Button_46 = Instance.new("TextButton")
 local UICorner_61 = Instance.new("UICorner")
-local Button_52 = Instance.new("TextButton")
+local Button_47 = Instance.new("TextButton")
 local UICorner_62 = Instance.new("UICorner")
-local Button_53 = Instance.new("TextButton")
+local Button_48 = Instance.new("TextButton")
 local UICorner_63 = Instance.new("UICorner")
-local Button_54 = Instance.new("TextButton")
+local Button_49 = Instance.new("TextButton")
 local UICorner_64 = Instance.new("UICorner")
-local Button_55 = Instance.new("TextButton")
+local Button_50 = Instance.new("TextButton")
 local UICorner_65 = Instance.new("UICorner")
 local _1 = Instance.new("TextLabel")
 local open = Instance.new("TextButton")
@@ -153,8 +153,9 @@ MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 0
-MainFrame.Position = UDim2.new(0.0128279105, 0, 0.509000003, 0)
+MainFrame.Position = UDim2.new(-0.000653453695, 0, 0.423572868, 0)
 MainFrame.Size = UDim2.new(0, 628, 0, 293)
+MainFrame.Visible = false
 
 Page2.Name = "Page2"
 Page2.Parent = MainFrame
@@ -948,12 +949,87 @@ PuppetMaster.TextWrapped = true
 
 UICorner_50.Parent = PuppetMaster
 
+Neptunian.Name = "Neptunian"
+Neptunian.Parent = Page1
+Neptunian.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Neptunian.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Neptunian.BorderSizePixel = 0
+Neptunian.Position = UDim2.new(0.0179999992, 0, 0.287377983, 0)
+Neptunian.Size = UDim2.new(0, 100, 0, 23)
+Neptunian.Font = Enum.Font.Unknown
+Neptunian.Text = "Neptunian "
+Neptunian.TextColor3 = Color3.fromRGB(0, 0, 0)
+Neptunian.TextSize = 20.000
+Neptunian.TextWrapped = true
+
+UICorner_51.Parent = Neptunian
+
+KrystalDance.Name = "Krystal Dance"
+KrystalDance.Parent = Page1
+KrystalDance.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+KrystalDance.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KrystalDance.BorderSizePixel = 0
+KrystalDance.Position = UDim2.new(0.223000005, 0, 0.287, 0)
+KrystalDance.Size = UDim2.new(0, 100, 0, 23)
+KrystalDance.Font = Enum.Font.Unknown
+KrystalDance.Text = "Kry Dance"
+KrystalDance.TextColor3 = Color3.fromRGB(0, 0, 0)
+KrystalDance.TextSize = 20.000
+KrystalDance.TextWrapped = true
+
+UICorner_52.Parent = KrystalDance
+
+GaleFighter.Name = "Gale Fighter"
+GaleFighter.Parent = Page1
+GaleFighter.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+GaleFighter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GaleFighter.BorderSizePixel = 0
+GaleFighter.Position = UDim2.new(0.423000008, 0, 0.287, 0)
+GaleFighter.Size = UDim2.new(0, 100, 0, 23)
+GaleFighter.Font = Enum.Font.Unknown
+GaleFighter.Text = "Gale Fighter"
+GaleFighter.TextColor3 = Color3.fromRGB(0, 0, 0)
+GaleFighter.TextSize = 20.000
+GaleFighter.TextWrapped = true
+
+UICorner_53.Parent = GaleFighter
+
+Goner.Name = "Goner"
+Goner.Parent = Page1
+Goner.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Goner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Goner.BorderSizePixel = 0
+Goner.Position = UDim2.new(0.625, 0, 0.287, 0)
+Goner.Size = UDim2.new(0, 100, 0, 23)
+Goner.Font = Enum.Font.Unknown
+Goner.Text = "Goner"
+Goner.TextColor3 = Color3.fromRGB(0, 0, 0)
+Goner.TextSize = 20.000
+Goner.TextWrapped = true
+
+UICorner_54.Parent = Goner
+
+BanHammer.Name = "Ban Hammer"
+BanHammer.Parent = Page1
+BanHammer.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+BanHammer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BanHammer.BorderSizePixel = 0
+BanHammer.Position = UDim2.new(0.824999988, 0, 0.287, 0)
+BanHammer.Size = UDim2.new(0, 100, 0, 23)
+BanHammer.Font = Enum.Font.Unknown
+BanHammer.Text = "Ban Hammer"
+BanHammer.TextColor3 = Color3.fromRGB(0, 0, 0)
+BanHammer.TextSize = 18.000
+BanHammer.TextWrapped = true
+
+UICorner_55.Parent = BanHammer
+
 Button_41.Name = "Button"
 Button_41.Parent = Page1
 Button_41.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_41.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_41.BorderSizePixel = 0
-Button_41.Position = UDim2.new(0.0179999992, 0, 0.287377983, 0)
+Button_41.Position = UDim2.new(0.0179999992, 0, 0.517844856, 0)
 Button_41.Size = UDim2.new(0, 100, 0, 23)
 Button_41.Font = Enum.Font.Unknown
 Button_41.Text = "Button "
@@ -961,14 +1037,14 @@ Button_41.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_41.TextSize = 20.000
 Button_41.TextWrapped = true
 
-UICorner_51.Parent = Button_41
+UICorner_56.Parent = Button_41
 
 Button_42.Name = "Button"
 Button_42.Parent = Page1
 Button_42.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_42.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_42.BorderSizePixel = 0
-Button_42.Position = UDim2.new(0.223000005, 0, 0.287, 0)
+Button_42.Position = UDim2.new(0.223000005, 0, 0.517844856, 0)
 Button_42.Size = UDim2.new(0, 100, 0, 23)
 Button_42.Font = Enum.Font.Unknown
 Button_42.Text = "Button "
@@ -976,14 +1052,14 @@ Button_42.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_42.TextSize = 20.000
 Button_42.TextWrapped = true
 
-UICorner_52.Parent = Button_42
+UICorner_57.Parent = Button_42
 
 Button_43.Name = "Button"
 Button_43.Parent = Page1
 Button_43.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_43.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_43.BorderSizePixel = 0
-Button_43.Position = UDim2.new(0.423000008, 0, 0.287, 0)
+Button_43.Position = UDim2.new(0.423000008, 0, 0.517844856, 0)
 Button_43.Size = UDim2.new(0, 100, 0, 23)
 Button_43.Font = Enum.Font.Unknown
 Button_43.Text = "Button "
@@ -991,14 +1067,14 @@ Button_43.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_43.TextSize = 20.000
 Button_43.TextWrapped = true
 
-UICorner_53.Parent = Button_43
+UICorner_58.Parent = Button_43
 
 Button_44.Name = "Button"
 Button_44.Parent = Page1
 Button_44.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_44.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_44.BorderSizePixel = 0
-Button_44.Position = UDim2.new(0.625, 0, 0.287, 0)
+Button_44.Position = UDim2.new(0.625, 0, 0.517844856, 0)
 Button_44.Size = UDim2.new(0, 100, 0, 23)
 Button_44.Font = Enum.Font.Unknown
 Button_44.Text = "Button "
@@ -1006,14 +1082,14 @@ Button_44.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_44.TextSize = 20.000
 Button_44.TextWrapped = true
 
-UICorner_54.Parent = Button_44
+UICorner_59.Parent = Button_44
 
 Button_45.Name = "Button"
 Button_45.Parent = Page1
 Button_45.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_45.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_45.BorderSizePixel = 0
-Button_45.Position = UDim2.new(0.824999988, 0, 0.287, 0)
+Button_45.Position = UDim2.new(0.824999988, 0, 0.517844856, 0)
 Button_45.Size = UDim2.new(0, 100, 0, 23)
 Button_45.Font = Enum.Font.Unknown
 Button_45.Text = "Button "
@@ -1021,14 +1097,14 @@ Button_45.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_45.TextSize = 20.000
 Button_45.TextWrapped = true
 
-UICorner_55.Parent = Button_45
+UICorner_60.Parent = Button_45
 
 Button_46.Name = "Button"
 Button_46.Parent = Page1
 Button_46.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_46.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_46.BorderSizePixel = 0
-Button_46.Position = UDim2.new(0.0179999992, 0, 0.517844856, 0)
+Button_46.Position = UDim2.new(0.0179999992, 0, 0.737437606, 0)
 Button_46.Size = UDim2.new(0, 100, 0, 23)
 Button_46.Font = Enum.Font.Unknown
 Button_46.Text = "Button "
@@ -1036,14 +1112,14 @@ Button_46.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_46.TextSize = 20.000
 Button_46.TextWrapped = true
 
-UICorner_56.Parent = Button_46
+UICorner_61.Parent = Button_46
 
 Button_47.Name = "Button"
 Button_47.Parent = Page1
 Button_47.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_47.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_47.BorderSizePixel = 0
-Button_47.Position = UDim2.new(0.223000005, 0, 0.517844856, 0)
+Button_47.Position = UDim2.new(0.223000005, 0, 0.737437606, 0)
 Button_47.Size = UDim2.new(0, 100, 0, 23)
 Button_47.Font = Enum.Font.Unknown
 Button_47.Text = "Button "
@@ -1051,14 +1127,14 @@ Button_47.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_47.TextSize = 20.000
 Button_47.TextWrapped = true
 
-UICorner_57.Parent = Button_47
+UICorner_62.Parent = Button_47
 
 Button_48.Name = "Button"
 Button_48.Parent = Page1
 Button_48.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_48.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_48.BorderSizePixel = 0
-Button_48.Position = UDim2.new(0.423000008, 0, 0.517844856, 0)
+Button_48.Position = UDim2.new(0.423000008, 0, 0.737437606, 0)
 Button_48.Size = UDim2.new(0, 100, 0, 23)
 Button_48.Font = Enum.Font.Unknown
 Button_48.Text = "Button "
@@ -1066,14 +1142,14 @@ Button_48.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_48.TextSize = 20.000
 Button_48.TextWrapped = true
 
-UICorner_58.Parent = Button_48
+UICorner_63.Parent = Button_48
 
 Button_49.Name = "Button"
 Button_49.Parent = Page1
 Button_49.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_49.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_49.BorderSizePixel = 0
-Button_49.Position = UDim2.new(0.625, 0, 0.517844856, 0)
+Button_49.Position = UDim2.new(0.625, 0, 0.737437606, 0)
 Button_49.Size = UDim2.new(0, 100, 0, 23)
 Button_49.Font = Enum.Font.Unknown
 Button_49.Text = "Button "
@@ -1081,14 +1157,14 @@ Button_49.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_49.TextSize = 20.000
 Button_49.TextWrapped = true
 
-UICorner_59.Parent = Button_49
+UICorner_64.Parent = Button_49
 
 Button_50.Name = "Button"
 Button_50.Parent = Page1
 Button_50.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Button_50.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_50.BorderSizePixel = 0
-Button_50.Position = UDim2.new(0.824999988, 0, 0.517844856, 0)
+Button_50.Position = UDim2.new(0.824999988, 0, 0.737437606, 0)
 Button_50.Size = UDim2.new(0, 100, 0, 23)
 Button_50.Font = Enum.Font.Unknown
 Button_50.Text = "Button "
@@ -1096,82 +1172,7 @@ Button_50.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_50.TextSize = 20.000
 Button_50.TextWrapped = true
 
-UICorner_60.Parent = Button_50
-
-Button_51.Name = "Button"
-Button_51.Parent = Page1
-Button_51.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Button_51.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_51.BorderSizePixel = 0
-Button_51.Position = UDim2.new(0.0179999992, 0, 0.737437606, 0)
-Button_51.Size = UDim2.new(0, 100, 0, 23)
-Button_51.Font = Enum.Font.Unknown
-Button_51.Text = "Button "
-Button_51.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button_51.TextSize = 20.000
-Button_51.TextWrapped = true
-
-UICorner_61.Parent = Button_51
-
-Button_52.Name = "Button"
-Button_52.Parent = Page1
-Button_52.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Button_52.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_52.BorderSizePixel = 0
-Button_52.Position = UDim2.new(0.223000005, 0, 0.737437606, 0)
-Button_52.Size = UDim2.new(0, 100, 0, 23)
-Button_52.Font = Enum.Font.Unknown
-Button_52.Text = "Button "
-Button_52.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button_52.TextSize = 20.000
-Button_52.TextWrapped = true
-
-UICorner_62.Parent = Button_52
-
-Button_53.Name = "Button"
-Button_53.Parent = Page1
-Button_53.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Button_53.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_53.BorderSizePixel = 0
-Button_53.Position = UDim2.new(0.423000008, 0, 0.737437606, 0)
-Button_53.Size = UDim2.new(0, 100, 0, 23)
-Button_53.Font = Enum.Font.Unknown
-Button_53.Text = "Button "
-Button_53.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button_53.TextSize = 20.000
-Button_53.TextWrapped = true
-
-UICorner_63.Parent = Button_53
-
-Button_54.Name = "Button"
-Button_54.Parent = Page1
-Button_54.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Button_54.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_54.BorderSizePixel = 0
-Button_54.Position = UDim2.new(0.625, 0, 0.737437606, 0)
-Button_54.Size = UDim2.new(0, 100, 0, 23)
-Button_54.Font = Enum.Font.Unknown
-Button_54.Text = "Button "
-Button_54.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button_54.TextSize = 20.000
-Button_54.TextWrapped = true
-
-UICorner_64.Parent = Button_54
-
-Button_55.Name = "Button"
-Button_55.Parent = Page1
-Button_55.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Button_55.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_55.BorderSizePixel = 0
-Button_55.Position = UDim2.new(0.824999988, 0, 0.737437606, 0)
-Button_55.Size = UDim2.new(0, 100, 0, 23)
-Button_55.Font = Enum.Font.Unknown
-Button_55.Text = "Button "
-Button_55.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button_55.TextSize = 20.000
-Button_55.TextWrapped = true
-
-UICorner_65.Parent = Button_55
+UICorner_65.Parent = Button_50
 
 _1.Name = "1"
 _1.Parent = Page1
@@ -1205,7 +1206,7 @@ UICorner_66.Parent = open
 
 -- Scripts:
 
-local function XWGX_fake_script() -- MainFrame.LocalScript 
+local function IOMTU_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1225,8 +1226,8 @@ local function XWGX_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(XWGX_fake_script)()
-local function UXVTCO_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(IOMTU_fake_script)()
+local function QOBF_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1246,8 +1247,8 @@ local function UXVTCO_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(UXVTCO_fake_script)()
-local function EGAISKF_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(QOBF_fake_script)()
+local function VQQGA_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local pages = {
@@ -1285,8 +1286,8 @@ local function EGAISKF_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(EGAISKF_fake_script)()
-local function BWQQ_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(VQQGA_fake_script)()
+local function VNABIP_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1304,8 +1305,8 @@ local function BWQQ_fake_script() -- InfiniteYield.Script
 	end)
 	
 end
-coroutine.wrap(BWQQ_fake_script)()
-local function FMGZ_fake_script() -- FlingGui.Script 
+coroutine.wrap(VNABIP_fake_script)()
+local function EHSTF_fake_script() -- FlingGui.Script 
 	local script = Instance.new('Script', FlingGui)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1323,8 +1324,8 @@ local function FMGZ_fake_script() -- FlingGui.Script
 	end)
 	
 end
-coroutine.wrap(FMGZ_fake_script)()
-local function WIGGGDF_fake_script() -- Entity.Script 
+coroutine.wrap(EHSTF_fake_script)()
+local function VGTFTUN_fake_script() -- Entity.Script 
 	local script = Instance.new('Script', Entity)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1342,8 +1343,8 @@ local function WIGGGDF_fake_script() -- Entity.Script
 	end)
 	
 end
-coroutine.wrap(WIGGGDF_fake_script)()
-local function LOEG_fake_script() -- Devil.Script 
+coroutine.wrap(VGTFTUN_fake_script)()
+local function ZYVKNXM_fake_script() -- Devil.Script 
 	local script = Instance.new('Script', Devil)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1360,8 +1361,8 @@ local function LOEG_fake_script() -- Devil.Script
 		end
 	end)
 end
-coroutine.wrap(LOEG_fake_script)()
-local function RMAGPH_fake_script() -- PuppetMaster.Script 
+coroutine.wrap(ZYVKNXM_fake_script)()
+local function UWQIDAG_fake_script() -- PuppetMaster.Script 
 	local script = Instance.new('Script', PuppetMaster)
 
 	local boton = script.Parent
@@ -1424,14 +1425,352 @@ local function RMAGPH_fake_script() -- PuppetMaster.Script
 	end)
 	
 end
-coroutine.wrap(RMAGPH_fake_script)()
-local function WDLPXRJ_fake_script() -- MainFrame.LocalScript 
-	local script = Instance.new('LocalScript', MainFrame)
+coroutine.wrap(UWQIDAG_fake_script)()
+local function HEOYI_fake_script() -- Neptunian.Script 
+	local script = Instance.new('Script', Neptunian)
 
-	local frame = script.Parent -- Asegúrate de que esto esté dentro del Frame
+	local boton = script.Parent
 	
-	frame.Active = true
-	frame.Draggable = true
+	boton.MouseButton1Click:Connect(function()
+	
+	    --[[
+	    _________                       _____            ___________________
+	    __  ____/__________________________(_)_______    ___  ____/__  ____/
+	    _  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+	    / /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+	    \____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+	
+	    by rqz					
+	    https://discord.com/invite/aEZpBEHgMT
+	    ]]--
+	
+		--====================================--
+		--           FDless Options           --
+		--====================================--
+	
+		getgenv().permadeath = false
+		getgenv().fling = true
+		getgenv().allowshiftlock = true
+		getgenv().ctrltp = true
+		getgenv().placeholders = true
+		getgenv().clickfling = false
+		getgenv().highlightflingtargets = true
+		getgenv().discharscripts = true
+		getgenv().flingchangestate = true
+		getgenv().hidedeatheffect = true
+		getgenv().respawntp = 3
+		-- 0 - stay at spawn
+		-- 1 - randomtp close
+		-- 2 - behind fake character
+		-- 3 - hide body
+		getgenv().breakjointsmethod = 1
+		-- 1 - health+breakjoints (the most support)
+		-- 2 - health or breakjoints
+		-- 3 - breakjoints
+		getgenv().simrad = true
+	
+		-- Ejecutar el script principal
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar Neptunian V:", err)
+		end
+	
+	end)
 	
 end
-coroutine.wrap(WDLPXRJ_fake_script)()
+coroutine.wrap(HEOYI_fake_script)()
+local function SWVYR_fake_script() -- KrystalDance.Script 
+	local script = Instance.new('Script', KrystalDance)
+
+	local boton = script.Parent
+	
+	boton.MouseButton1Click:Connect(function()
+	
+	    --[[
+	    _________                       _____            ___________________
+	    __  ____/__________________________(_)_______    ___  ____/__  ____/
+	    _  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+	    / /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+	    \____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+	
+	    by rqz					
+	    https://discord.com/invite/aEZpBEHgMT
+	    ]]--
+	
+		--====================================--
+		--           FDless Options           --
+		--====================================--
+	
+		getgenv().permadeath = false --adds permanent death (no respawning), see #supported-executors channel for executors that work with this
+		getgenv().fling = true --toggle fling
+		getgenv().allowshiftlock = true --adds shiftlock to patchma rig
+		getgenv().ctrltp = true --adds control click tp
+		getgenv().placeholders = true --adds transparent parts showing your hats when you don't have real ones
+		getgenv().clickfling = true --adds click flinging regardless of attacks
+		getgenv().highlightflingtargets = true --highlight fling
+		getgenv().discharscripts = true --disable character scripts
+		getgenv().flingchangestate = true --fling with whole body
+		getgenv().hidedeatheffect = true --hides the red damage border when you die (respawn)
+		getgenv().respawntp = 3 --respawn tp mode
+		-- 0 - stay at spawn
+		-- 1 - randomtp close
+		-- 2 - behind fake character
+		-- 3 - hide body
+		getgenv().breakjointsmethod = 1 --breakjoints mode
+		-- 1 - health+breakjoints (the most support)
+		-- 2 - health or breakjoints
+		-- 3 - breakjoints
+		getgenv().simrad = true --sets simulation radius
+	
+		-- Ejecutar el script principal
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar Krystal Dance:", err)
+		end
+	
+	end)
+	
+end
+coroutine.wrap(SWVYR_fake_script)()
+local function SEDOJMH_fake_script() -- GaleFighter.Script 
+	local script = Instance.new('Script', GaleFighter)
+
+	local boton = script.Parent
+	
+	boton.MouseButton1Click:Connect(function()
+	
+	    --[[
+	    _________                       _____            ___________________
+	    __  ____/__________________________(_)_______    ___  ____/__  ____/
+	    _  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+	    / /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+	    \____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+	
+	    by rqz					
+	    https://discord.com/invite/aEZpBEHgMT
+	    ]]--
+	
+		--====================================--
+		--           FDless Options           --
+		--====================================--
+	
+		getgenv().permadeath = false --adds permanent death (no respawning), see #supported-executors channel for executors that work with this
+		getgenv().fling = true --toggle fling
+		getgenv().allowshiftlock = true --adds shiftlock to patchma rig
+		getgenv().ctrltp = true --adds control click tp
+		getgenv().placeholders = true --adds transparent parts showing your hats when you don't have real ones
+		getgenv().clickfling = false --adds click flinging regardless of attacks
+		getgenv().highlightflingtargets = true --highlight fling
+		getgenv().discharscripts = true --disable character scripts
+		getgenv().flingchangestate = true --fling with whole body
+		getgenv().hidedeatheffect = true --hides the red damage border when you die (respawn)
+		getgenv().respawntp = 3 --respawn tp mode
+		-- 0 - stay at spawn
+		-- 1 - randomtp close
+		-- 2 - behind fake character
+		-- 3 - hide body
+		getgenv().breakjointsmethod = 1 --breakjoints mode
+		-- 1 - health+breakjoints (the most support)
+		-- 2 - health or breakjoints
+		-- 3 - breakjoints
+		getgenv().simrad = true --sets simulation radius
+	
+		-- Ejecutar el script principal
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Gale%20Fighter"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar Gale Fighter:", err)
+		end
+	
+	end)
+	
+end
+coroutine.wrap(SEDOJMH_fake_script)()
+local function RHKYO_fake_script() -- Goner.Script 
+	local script = Instance.new('Script', Goner)
+
+	local boton = script.Parent
+	
+	boton.MouseButton1Click:Connect(function()
+	
+	    --[[
+	    _________                       _____            ___________________
+	    __  ____/__________________________(_)_______    ___  ____/__  ____/
+	    _  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+	    / /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+	    \____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+	
+	    by rqz					
+	    https://discord.com/invite/aEZpBEHgMT
+	    ]]--
+	
+		--====================================--
+		--           FDless Options           --
+		--====================================--
+	
+		getgenv().permadeath = false --adds permanent death (no respawning), see #supported-executors channel for executors that work with this
+		getgenv().fling = true --toggle fling
+		getgenv().allowshiftlock = true --adds shiftlock to patchma rig
+		getgenv().ctrltp = true --adds control click tp
+		getgenv().placeholders = true --adds transparent parts showing your hats when you don't have real ones
+		getgenv().clickfling = false --adds click flinging regardless of attacks
+		getgenv().highlightflingtargets = true --highlight fling
+		getgenv().discharscripts = true --disable character scripts
+		getgenv().flingchangestate = true --fling with whole body
+		getgenv().hidedeatheffect = true --hides the red damage border when you die (respawn)
+		getgenv().respawntp = 3 --respawn tp mode
+		-- 0 - stay at spawn
+		-- 1 - randomtp close
+		-- 2 - behind fake character
+		-- 3 - hide body
+		getgenv().breakjointsmethod = 1 --breakjoints mode
+		-- 1 - health+breakjoints (the most support)
+		-- 2 - health or breakjoints
+		-- 3 - breakjoints
+		getgenv().simrad = true --sets simulation radius
+	
+		-- Ejecutar el script principal
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar Goner:", err)
+		end
+	
+	end)
+	
+end
+coroutine.wrap(RHKYO_fake_script)()
+local function UKJJDHS_fake_script() -- BanHammer.Script 
+	local script = Instance.new('Script', BanHammer)
+
+	local boton = script.Parent
+	
+	boton.MouseButton1Click:Connect(function()
+	
+	    --[[
+	    _________                       _____            ___________________
+	    __  ____/__________________________(_)_______    ___  ____/__  ____/
+	    _  / __ _  _ \_  __ \  _ \_  ___/_  /__  ___/    __  /_   __  __/   
+	    / /_/ / /  __/  / / /  __/(__  )_  / _(__  )     _  __/   _  /___   
+	    \____/  \___//_/ /_/\___//____/ /_/  /____/      /_/      /_____/   							
+	
+	    by rqz					
+	    https://discord.com/invite/aEZpBEHgMT
+	    ]]--
+	
+		--====================================--
+		--           FDless Options           --
+		--====================================--
+	
+		getgenv().permadeath = false --adds permanent death (no respawning), see #supported-executors channel for executors that work with this
+		getgenv().fling = true --toggle fling
+		getgenv().allowshiftlock = true --adds shiftlock to patchma rig
+		getgenv().ctrltp = true --adds control click tp
+		getgenv().placeholders = true --adds transparent parts showing your hats when you don't have real ones
+		getgenv().clickfling = false --adds click flinging regardless of attacks
+		getgenv().highlightflingtargets = true --highlight fling
+		getgenv().discharscripts = true --disable character scripts
+		getgenv().flingchangestate = true --fling with whole body
+		getgenv().hidedeatheffect = true --hides the red damage border when you die (respawn)
+		getgenv().respawntp = 3 --respawn tp mode
+		-- 0 - stay at spawn
+		-- 1 - randomtp close
+		-- 2 - behind fake character
+		-- 3 - hide body
+		getgenv().breakjointsmethod = 1 --breakjoints mode
+		-- 1 - health+breakjoints (the most support)
+		-- 2 - health or breakjoints
+		-- 3 - breakjoints
+		getgenv().simrad = true --sets simulation radius
+	
+		-- Ejecutar el script principal
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar Ban Hammer:", err)
+		end
+	
+	end)
+	
+end
+coroutine.wrap(UKJJDHS_fake_script)()
+local function AEGBFN_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService("UserInputService")
+	
+	local gui = script.Parent -- Cambia esto por el objeto Frame que quieras mover
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(AEGBFN_fake_script)()
+local function DQETH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	-- Este script se vuelve a ejecutar cada vez que el personaje reaparece
+	
+	local player = game.Players.LocalPlayer
+	
+	local function cargarScript()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/viboraon/evig/main/aa'))()
+	end
+	
+	-- Ejecutar al inicio
+	cargarScript()
+	
+	-- Ejecutar cada vez que el personaje reaparezca
+	player.CharacterAdded:Connect(function(char)
+		-- Esperar a que el Humanoid esté cargado
+		if not char:FindFirstChild("Humanoid") then
+			char:WaitForChild("Humanoid")
+		end
+		wait(0) -- Asegura que todo esté cargado
+		cargarScript()
+	end)
+	
+end
+coroutine.wrap(DQETH_fake_script)()
