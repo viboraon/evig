@@ -1206,7 +1206,7 @@ UICorner_66.Parent = open
 
 -- Scripts:
 
-local function EMQQQH_fake_script() -- MainFrame.LocalScript 
+local function PBDIF_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1226,8 +1226,8 @@ local function EMQQQH_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(EMQQQH_fake_script)()
-local function NFNM_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(PBDIF_fake_script)()
+local function YBWCNW_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1247,8 +1247,8 @@ local function NFNM_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(NFNM_fake_script)()
-local function JRIOCNI_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(YBWCNW_fake_script)()
+local function NOLKGWN_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local pages = {
@@ -1286,8 +1286,8 @@ local function JRIOCNI_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(JRIOCNI_fake_script)()
-local function NZYG_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(NOLKGWN_fake_script)()
+local function IXWPVSG_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1305,8 +1305,8 @@ local function NZYG_fake_script() -- InfiniteYield.Script
 	end)
 	
 end
-coroutine.wrap(NZYG_fake_script)()
-local function YUYCS_fake_script() -- FlingGui.Script 
+coroutine.wrap(IXWPVSG_fake_script)()
+local function FEUILOJ_fake_script() -- FlingGui.Script 
 	local script = Instance.new('Script', FlingGui)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1324,8 +1324,8 @@ local function YUYCS_fake_script() -- FlingGui.Script
 	end)
 	
 end
-coroutine.wrap(YUYCS_fake_script)()
-local function BNYR_fake_script() -- Entity.Script 
+coroutine.wrap(FEUILOJ_fake_script)()
+local function GUXE_fake_script() -- Entity.Script 
 	local script = Instance.new('Script', Entity)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1343,8 +1343,8 @@ local function BNYR_fake_script() -- Entity.Script
 	end)
 	
 end
-coroutine.wrap(BNYR_fake_script)()
-local function OJGHYUH_fake_script() -- Devil.Script 
+coroutine.wrap(GUXE_fake_script)()
+local function EGDOXKO_fake_script() -- Devil.Script 
 	local script = Instance.new('Script', Devil)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1361,8 +1361,8 @@ local function OJGHYUH_fake_script() -- Devil.Script
 		end
 	end)
 end
-coroutine.wrap(OJGHYUH_fake_script)()
-local function LKMHZ_fake_script() -- PuppetMaster.Script 
+coroutine.wrap(EGDOXKO_fake_script)()
+local function ERVLHE_fake_script() -- PuppetMaster.Script 
 	local script = Instance.new('Script', PuppetMaster)
 
 	local boton = script.Parent
@@ -1425,8 +1425,8 @@ local function LKMHZ_fake_script() -- PuppetMaster.Script
 	end)
 	
 end
-coroutine.wrap(LKMHZ_fake_script)()
-local function DUXDDM_fake_script() -- Neptunian.Script 
+coroutine.wrap(ERVLHE_fake_script)()
+local function NVUMFN_fake_script() -- Neptunian.Script 
 	local script = Instance.new('Script', Neptunian)
 
 	local boton = script.Parent
@@ -1481,8 +1481,8 @@ local function DUXDDM_fake_script() -- Neptunian.Script
 	end)
 	
 end
-coroutine.wrap(DUXDDM_fake_script)()
-local function ELFMA_fake_script() -- KrystalDance.Script 
+coroutine.wrap(NVUMFN_fake_script)()
+local function TTWIG_fake_script() -- KrystalDance.Script 
 	local script = Instance.new('Script', KrystalDance)
 
 	local boton = script.Parent
@@ -1537,8 +1537,8 @@ local function ELFMA_fake_script() -- KrystalDance.Script
 	end)
 	
 end
-coroutine.wrap(ELFMA_fake_script)()
-local function OIMVLX_fake_script() -- GaleFighter.Script 
+coroutine.wrap(TTWIG_fake_script)()
+local function TCZWRWM_fake_script() -- GaleFighter.Script 
 	local script = Instance.new('Script', GaleFighter)
 
 	local boton = script.Parent
@@ -1593,8 +1593,8 @@ local function OIMVLX_fake_script() -- GaleFighter.Script
 	end)
 	
 end
-coroutine.wrap(OIMVLX_fake_script)()
-local function PAXBHA_fake_script() -- Goner.Script 
+coroutine.wrap(TCZWRWM_fake_script)()
+local function GNYPV_fake_script() -- Goner.Script 
 	local script = Instance.new('Script', Goner)
 
 	local boton = script.Parent
@@ -1649,8 +1649,8 @@ local function PAXBHA_fake_script() -- Goner.Script
 	end)
 	
 end
-coroutine.wrap(PAXBHA_fake_script)()
-local function PMZGQAA_fake_script() -- BanHammer.Script 
+coroutine.wrap(GNYPV_fake_script)()
+local function RSLAG_fake_script() -- BanHammer.Script 
 	local script = Instance.new('Script', BanHammer)
 
 	local boton = script.Parent
@@ -1705,46 +1705,4 @@ local function PMZGQAA_fake_script() -- BanHammer.Script
 	end)
 	
 end
-coroutine.wrap(PMZGQAA_fake_script)()
-local function BHBU_fake_script() -- MainFrame.LocalScript 
-	local script = Instance.new('LocalScript', MainFrame)
-
-	local UIS = game:GetService("UserInputService")
-	
-	local gui = script.Parent -- Cambia esto por el objeto Frame que quieras mover
-	local dragging = false
-	local dragInput, dragStart, startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-	
-end
-coroutine.wrap(BHBU_fake_script)()
+coroutine.wrap(RSLAG_fake_script)()
