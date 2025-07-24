@@ -1206,7 +1206,7 @@ UICorner_66.Parent = open
 
 -- Scripts:
 
-local function IOMTU_fake_script() -- MainFrame.LocalScript 
+local function EMQQQH_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1226,8 +1226,8 @@ local function IOMTU_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(IOMTU_fake_script)()
-local function QOBF_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(EMQQQH_fake_script)()
+local function NFNM_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -1247,8 +1247,8 @@ local function QOBF_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(QOBF_fake_script)()
-local function VQQGA_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(NFNM_fake_script)()
+local function JRIOCNI_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local pages = {
@@ -1286,8 +1286,8 @@ local function VQQGA_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(VQQGA_fake_script)()
-local function VNABIP_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(JRIOCNI_fake_script)()
+local function NZYG_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1305,8 +1305,8 @@ local function VNABIP_fake_script() -- InfiniteYield.Script
 	end)
 	
 end
-coroutine.wrap(VNABIP_fake_script)()
-local function EHSTF_fake_script() -- FlingGui.Script 
+coroutine.wrap(NZYG_fake_script)()
+local function YUYCS_fake_script() -- FlingGui.Script 
 	local script = Instance.new('Script', FlingGui)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1324,8 +1324,8 @@ local function EHSTF_fake_script() -- FlingGui.Script
 	end)
 	
 end
-coroutine.wrap(EHSTF_fake_script)()
-local function VGTFTUN_fake_script() -- Entity.Script 
+coroutine.wrap(YUYCS_fake_script)()
+local function BNYR_fake_script() -- Entity.Script 
 	local script = Instance.new('Script', Entity)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1343,8 +1343,8 @@ local function VGTFTUN_fake_script() -- Entity.Script
 	end)
 	
 end
-coroutine.wrap(VGTFTUN_fake_script)()
-local function ZYVKNXM_fake_script() -- Devil.Script 
+coroutine.wrap(BNYR_fake_script)()
+local function OJGHYUH_fake_script() -- Devil.Script 
 	local script = Instance.new('Script', Devil)
 
 	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
@@ -1361,8 +1361,8 @@ local function ZYVKNXM_fake_script() -- Devil.Script
 		end
 	end)
 end
-coroutine.wrap(ZYVKNXM_fake_script)()
-local function UWQIDAG_fake_script() -- PuppetMaster.Script 
+coroutine.wrap(OJGHYUH_fake_script)()
+local function LKMHZ_fake_script() -- PuppetMaster.Script 
 	local script = Instance.new('Script', PuppetMaster)
 
 	local boton = script.Parent
@@ -1425,8 +1425,8 @@ local function UWQIDAG_fake_script() -- PuppetMaster.Script
 	end)
 	
 end
-coroutine.wrap(UWQIDAG_fake_script)()
-local function HEOYI_fake_script() -- Neptunian.Script 
+coroutine.wrap(LKMHZ_fake_script)()
+local function DUXDDM_fake_script() -- Neptunian.Script 
 	local script = Instance.new('Script', Neptunian)
 
 	local boton = script.Parent
@@ -1481,8 +1481,8 @@ local function HEOYI_fake_script() -- Neptunian.Script
 	end)
 	
 end
-coroutine.wrap(HEOYI_fake_script)()
-local function SWVYR_fake_script() -- KrystalDance.Script 
+coroutine.wrap(DUXDDM_fake_script)()
+local function ELFMA_fake_script() -- KrystalDance.Script 
 	local script = Instance.new('Script', KrystalDance)
 
 	local boton = script.Parent
@@ -1537,8 +1537,8 @@ local function SWVYR_fake_script() -- KrystalDance.Script
 	end)
 	
 end
-coroutine.wrap(SWVYR_fake_script)()
-local function SEDOJMH_fake_script() -- GaleFighter.Script 
+coroutine.wrap(ELFMA_fake_script)()
+local function OIMVLX_fake_script() -- GaleFighter.Script 
 	local script = Instance.new('Script', GaleFighter)
 
 	local boton = script.Parent
@@ -1593,8 +1593,8 @@ local function SEDOJMH_fake_script() -- GaleFighter.Script
 	end)
 	
 end
-coroutine.wrap(SEDOJMH_fake_script)()
-local function RHKYO_fake_script() -- Goner.Script 
+coroutine.wrap(OIMVLX_fake_script)()
+local function PAXBHA_fake_script() -- Goner.Script 
 	local script = Instance.new('Script', Goner)
 
 	local boton = script.Parent
@@ -1649,8 +1649,8 @@ local function RHKYO_fake_script() -- Goner.Script
 	end)
 	
 end
-coroutine.wrap(RHKYO_fake_script)()
-local function UKJJDHS_fake_script() -- BanHammer.Script 
+coroutine.wrap(PAXBHA_fake_script)()
+local function PMZGQAA_fake_script() -- BanHammer.Script 
 	local script = Instance.new('Script', BanHammer)
 
 	local boton = script.Parent
@@ -1705,8 +1705,8 @@ local function UKJJDHS_fake_script() -- BanHammer.Script
 	end)
 	
 end
-coroutine.wrap(UKJJDHS_fake_script)()
-local function AEGBFN_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(PMZGQAA_fake_script)()
+local function BHBU_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1747,30 +1747,4 @@ local function AEGBFN_fake_script() -- MainFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(AEGBFN_fake_script)()
-local function DQETH_fake_script() -- ScreenGui.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui)
-
-	-- Este script se vuelve a ejecutar cada vez que el personaje reaparece
-	
-	local player = game.Players.LocalPlayer
-	
-	local function cargarScript()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/viboraon/evig/main/aa'))()
-	end
-	
-	-- Ejecutar al inicio
-	cargarScript()
-	
-	-- Ejecutar cada vez que el personaje reaparezca
-	player.CharacterAdded:Connect(function(char)
-		-- Esperar a que el Humanoid esté cargado
-		if not char:FindFirstChild("Humanoid") then
-			char:WaitForChild("Humanoid")
-		end
-		wait(0) -- Asegura que todo esté cargado
-		cargarScript()
-	end)
-	
-end
-coroutine.wrap(DQETH_fake_script)()
+coroutine.wrap(BHBU_fake_script)()
