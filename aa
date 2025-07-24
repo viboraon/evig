@@ -1,0 +1,1308 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Page2 = Instance.new("Frame")
+local _2 = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Button_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Button_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Button_5 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Button_6 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Button_7 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Button_8 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Button_9 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Button_10 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Button_11 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Button_12 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Button_13 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Button_14 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Button_15 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Button_16 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Button_17 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Button_18 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Button_19 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Button_20 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Page3 = Instance.new("Frame")
+local _3 = Instance.new("TextLabel")
+local Button_21 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Button_22 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Button_23 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Button_24 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Button_25 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Button_26 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Button_27 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Button_28 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Button_29 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Button_30 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Button_31 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Button_32 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Button_33 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Button_34 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Button_35 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Button_36 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Button_37 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Button_38 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Button_39 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local Button_40 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local NextButton = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local PrevButton = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_44 = Instance.new("UICorner")
+local UICorner_45 = Instance.new("UICorner")
+local Page1 = Instance.new("Frame")
+local Button_41 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local Button_42 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local Button_43 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local Button_44 = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local Button_45 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Button_46 = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local Button_47 = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Button_48 = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local Button_49 = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Button_50 = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local Button_51 = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local Button_52 = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local Button_53 = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local Button_54 = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local Button_55 = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local Button_56 = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local Button_57 = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local Button_58 = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
+local Button_59 = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local Button_60 = Instance.new("TextButton")
+local UICorner_65 = Instance.new("UICorner")
+local _1 = Instance.new("TextLabel")
+local open = Instance.new("TextButton")
+local UICorner_66 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0128279105, 0, 0.509000003, 0)
+MainFrame.Size = UDim2.new(0, 628, 0, 293)
+MainFrame.Visible = false
+
+Page2.Name = "Page2"
+Page2.Parent = MainFrame
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(-0.000445857935, 0, 0.211197048, 0)
+Page2.Size = UDim2.new(0, 623, 0, 197)
+Page2.Style = Enum.FrameStyle.RobloxSquare
+
+_2.Name = "2"
+_2.Parent = Page2
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.339486152, 0, 0.875999987, 0)
+_2.Size = UDim2.new(0, 200, 0, 50)
+_2.Font = Enum.Font.SourceSansBold
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+_2.TextSize = 20.000
+_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+_2.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = Page2
+Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0184096918, 0, 0.0556070544, 0)
+Button.Size = UDim2.new(0, 100, 0, 23)
+Button.Font = Enum.Font.Unknown
+Button.Text = "Button "
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 20.000
+Button.TextWrapped = true
+
+UICorner.Parent = Button
+
+Button_2.Name = "Button"
+Button_2.Parent = Page2
+Button_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0.222532958, 0, 0.0560000017, 0)
+Button_2.Size = UDim2.new(0, 100, 0, 23)
+Button_2.Font = Enum.Font.Unknown
+Button_2.Text = "Button "
+Button_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.TextSize = 20.000
+Button_2.TextWrapped = true
+
+UICorner_2.Parent = Button_2
+
+Button_3.Name = "Button"
+Button_3.Parent = Page2
+Button_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(0.423220038, 0, 0.0560000017, 0)
+Button_3.Size = UDim2.new(0, 100, 0, 23)
+Button_3.Font = Enum.Font.Unknown
+Button_3.Text = "Button "
+Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.TextSize = 20.000
+Button_3.TextWrapped = true
+
+UICorner_3.Parent = Button_3
+
+Button_4.Name = "Button"
+Button_4.Parent = Page2
+Button_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_4.BorderSizePixel = 0
+Button_4.Position = UDim2.new(0.624565125, 0, 0.0560000017, 0)
+Button_4.Size = UDim2.new(0, 100, 0, 23)
+Button_4.Font = Enum.Font.Unknown
+Button_4.Text = "Button "
+Button_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_4.TextSize = 20.000
+Button_4.TextWrapped = true
+
+UICorner_4.Parent = Button_4
+
+Button_5.Name = "Button"
+Button_5.Parent = Page2
+Button_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.BorderSizePixel = 0
+Button_5.Position = UDim2.new(0.824826181, 0, 0.0560000017, 0)
+Button_5.Size = UDim2.new(0, 100, 0, 23)
+Button_5.Font = Enum.Font.Unknown
+Button_5.Text = "Button "
+Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.TextSize = 20.000
+Button_5.TextWrapped = true
+
+UICorner_5.Parent = Button_5
+
+Button_6.Name = "Button"
+Button_6.Parent = Page2
+Button_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_6.BorderSizePixel = 0
+Button_6.Position = UDim2.new(0.0179999992, 0, 0.287377983, 0)
+Button_6.Size = UDim2.new(0, 100, 0, 23)
+Button_6.Font = Enum.Font.Unknown
+Button_6.Text = "Button "
+Button_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_6.TextSize = 20.000
+Button_6.TextWrapped = true
+
+UICorner_6.Parent = Button_6
+
+Button_7.Name = "Button"
+Button_7.Parent = Page2
+Button_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_7.BorderSizePixel = 0
+Button_7.Position = UDim2.new(0.223000005, 0, 0.287, 0)
+Button_7.Size = UDim2.new(0, 100, 0, 23)
+Button_7.Font = Enum.Font.Unknown
+Button_7.Text = "Button "
+Button_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_7.TextSize = 20.000
+Button_7.TextWrapped = true
+
+UICorner_7.Parent = Button_7
+
+Button_8.Name = "Button"
+Button_8.Parent = Page2
+Button_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_8.BorderSizePixel = 0
+Button_8.Position = UDim2.new(0.423000008, 0, 0.287, 0)
+Button_8.Size = UDim2.new(0, 100, 0, 23)
+Button_8.Font = Enum.Font.Unknown
+Button_8.Text = "Button "
+Button_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_8.TextSize = 20.000
+Button_8.TextWrapped = true
+
+UICorner_8.Parent = Button_8
+
+Button_9.Name = "Button"
+Button_9.Parent = Page2
+Button_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_9.BorderSizePixel = 0
+Button_9.Position = UDim2.new(0.625, 0, 0.287, 0)
+Button_9.Size = UDim2.new(0, 100, 0, 23)
+Button_9.Font = Enum.Font.Unknown
+Button_9.Text = "Button "
+Button_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_9.TextSize = 20.000
+Button_9.TextWrapped = true
+
+UICorner_9.Parent = Button_9
+
+Button_10.Name = "Button"
+Button_10.Parent = Page2
+Button_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_10.BorderSizePixel = 0
+Button_10.Position = UDim2.new(0.824999988, 0, 0.287, 0)
+Button_10.Size = UDim2.new(0, 100, 0, 23)
+Button_10.Font = Enum.Font.Unknown
+Button_10.Text = "Button "
+Button_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_10.TextSize = 20.000
+Button_10.TextWrapped = true
+
+UICorner_10.Parent = Button_10
+
+Button_11.Name = "Button"
+Button_11.Parent = Page2
+Button_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_11.BorderSizePixel = 0
+Button_11.Position = UDim2.new(0.0179999992, 0, 0.517844856, 0)
+Button_11.Size = UDim2.new(0, 100, 0, 23)
+Button_11.Font = Enum.Font.Unknown
+Button_11.Text = "Button "
+Button_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_11.TextSize = 20.000
+Button_11.TextWrapped = true
+
+UICorner_11.Parent = Button_11
+
+Button_12.Name = "Button"
+Button_12.Parent = Page2
+Button_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_12.BorderSizePixel = 0
+Button_12.Position = UDim2.new(0.223000005, 0, 0.517844856, 0)
+Button_12.Size = UDim2.new(0, 100, 0, 23)
+Button_12.Font = Enum.Font.Unknown
+Button_12.Text = "Button "
+Button_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_12.TextSize = 20.000
+Button_12.TextWrapped = true
+
+UICorner_12.Parent = Button_12
+
+Button_13.Name = "Button"
+Button_13.Parent = Page2
+Button_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_13.BorderSizePixel = 0
+Button_13.Position = UDim2.new(0.423000008, 0, 0.517844856, 0)
+Button_13.Size = UDim2.new(0, 100, 0, 23)
+Button_13.Font = Enum.Font.Unknown
+Button_13.Text = "Button "
+Button_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_13.TextSize = 20.000
+Button_13.TextWrapped = true
+
+UICorner_13.Parent = Button_13
+
+Button_14.Name = "Button"
+Button_14.Parent = Page2
+Button_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_14.BorderSizePixel = 0
+Button_14.Position = UDim2.new(0.625, 0, 0.517844856, 0)
+Button_14.Size = UDim2.new(0, 100, 0, 23)
+Button_14.Font = Enum.Font.Unknown
+Button_14.Text = "Button "
+Button_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_14.TextSize = 20.000
+Button_14.TextWrapped = true
+
+UICorner_14.Parent = Button_14
+
+Button_15.Name = "Button"
+Button_15.Parent = Page2
+Button_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_15.BorderSizePixel = 0
+Button_15.Position = UDim2.new(0.824999988, 0, 0.517844856, 0)
+Button_15.Size = UDim2.new(0, 100, 0, 23)
+Button_15.Font = Enum.Font.Unknown
+Button_15.Text = "Button "
+Button_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_15.TextSize = 20.000
+Button_15.TextWrapped = true
+
+UICorner_15.Parent = Button_15
+
+Button_16.Name = "Button"
+Button_16.Parent = Page2
+Button_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_16.BorderSizePixel = 0
+Button_16.Position = UDim2.new(0.0179999992, 0, 0.737437606, 0)
+Button_16.Size = UDim2.new(0, 100, 0, 23)
+Button_16.Font = Enum.Font.Unknown
+Button_16.Text = "Button "
+Button_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_16.TextSize = 20.000
+Button_16.TextWrapped = true
+
+UICorner_16.Parent = Button_16
+
+Button_17.Name = "Button"
+Button_17.Parent = Page2
+Button_17.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_17.BorderSizePixel = 0
+Button_17.Position = UDim2.new(0.223000005, 0, 0.737437606, 0)
+Button_17.Size = UDim2.new(0, 100, 0, 23)
+Button_17.Font = Enum.Font.Unknown
+Button_17.Text = "Button "
+Button_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_17.TextSize = 20.000
+Button_17.TextWrapped = true
+
+UICorner_17.Parent = Button_17
+
+Button_18.Name = "Button"
+Button_18.Parent = Page2
+Button_18.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_18.BorderSizePixel = 0
+Button_18.Position = UDim2.new(0.423000008, 0, 0.737437606, 0)
+Button_18.Size = UDim2.new(0, 100, 0, 23)
+Button_18.Font = Enum.Font.Unknown
+Button_18.Text = "Button "
+Button_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_18.TextSize = 20.000
+Button_18.TextWrapped = true
+
+UICorner_18.Parent = Button_18
+
+Button_19.Name = "Button"
+Button_19.Parent = Page2
+Button_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_19.BorderSizePixel = 0
+Button_19.Position = UDim2.new(0.625, 0, 0.737437606, 0)
+Button_19.Size = UDim2.new(0, 100, 0, 23)
+Button_19.Font = Enum.Font.Unknown
+Button_19.Text = "Button "
+Button_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_19.TextSize = 20.000
+Button_19.TextWrapped = true
+
+UICorner_19.Parent = Button_19
+
+Button_20.Name = "Button"
+Button_20.Parent = Page2
+Button_20.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_20.BorderSizePixel = 0
+Button_20.Position = UDim2.new(0.824999988, 0, 0.737437606, 0)
+Button_20.Size = UDim2.new(0, 100, 0, 23)
+Button_20.Font = Enum.Font.Unknown
+Button_20.Text = "Button "
+Button_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_20.TextSize = 20.000
+Button_20.TextWrapped = true
+
+UICorner_20.Parent = Button_20
+
+Page3.Name = "Page3"
+Page3.Parent = MainFrame
+Page3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Page3.BorderSizePixel = 0
+Page3.Position = UDim2.new(-0.000445857935, 0, 0.211197048, 0)
+Page3.Size = UDim2.new(0, 623, 0, 197)
+Page3.Style = Enum.FrameStyle.RobloxSquare
+
+_3.Name = "3"
+_3.Parent = Page3
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.338999987, 0, 0.875999987, 0)
+_3.Size = UDim2.new(0, 200, 0, 50)
+_3.Font = Enum.Font.SourceSansBold
+_3.Text = "3"
+_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+_3.TextSize = 20.000
+_3.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+_3.TextWrapped = true
+
+Button_21.Name = "Button"
+Button_21.Parent = Page3
+Button_21.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_21.BorderSizePixel = 0
+Button_21.Position = UDim2.new(0.0184096918, 0, 0.0556070544, 0)
+Button_21.Size = UDim2.new(0, 100, 0, 23)
+Button_21.Font = Enum.Font.Unknown
+Button_21.Text = "Button "
+Button_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_21.TextSize = 20.000
+Button_21.TextWrapped = true
+
+UICorner_21.Parent = Button_21
+
+Button_22.Name = "Button"
+Button_22.Parent = Page3
+Button_22.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_22.BorderSizePixel = 0
+Button_22.Position = UDim2.new(0.222532958, 0, 0.0560000017, 0)
+Button_22.Size = UDim2.new(0, 100, 0, 23)
+Button_22.Font = Enum.Font.Unknown
+Button_22.Text = "Button "
+Button_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_22.TextSize = 20.000
+Button_22.TextWrapped = true
+
+UICorner_22.Parent = Button_22
+
+Button_23.Name = "Button"
+Button_23.Parent = Page3
+Button_23.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_23.BorderSizePixel = 0
+Button_23.Position = UDim2.new(0.423220038, 0, 0.0560000017, 0)
+Button_23.Size = UDim2.new(0, 100, 0, 23)
+Button_23.Font = Enum.Font.Unknown
+Button_23.Text = "Button "
+Button_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_23.TextSize = 20.000
+Button_23.TextWrapped = true
+
+UICorner_23.Parent = Button_23
+
+Button_24.Name = "Button"
+Button_24.Parent = Page3
+Button_24.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_24.BorderSizePixel = 0
+Button_24.Position = UDim2.new(0.624565125, 0, 0.0560000017, 0)
+Button_24.Size = UDim2.new(0, 100, 0, 23)
+Button_24.Font = Enum.Font.Unknown
+Button_24.Text = "Button "
+Button_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_24.TextSize = 20.000
+Button_24.TextWrapped = true
+
+UICorner_24.Parent = Button_24
+
+Button_25.Name = "Button"
+Button_25.Parent = Page3
+Button_25.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_25.BorderSizePixel = 0
+Button_25.Position = UDim2.new(0.824826181, 0, 0.0560000017, 0)
+Button_25.Size = UDim2.new(0, 100, 0, 23)
+Button_25.Font = Enum.Font.Unknown
+Button_25.Text = "Button "
+Button_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_25.TextSize = 20.000
+Button_25.TextWrapped = true
+
+UICorner_25.Parent = Button_25
+
+Button_26.Name = "Button"
+Button_26.Parent = Page3
+Button_26.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_26.BorderSizePixel = 0
+Button_26.Position = UDim2.new(0.0179999992, 0, 0.287377983, 0)
+Button_26.Size = UDim2.new(0, 100, 0, 23)
+Button_26.Font = Enum.Font.Unknown
+Button_26.Text = "Button "
+Button_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_26.TextSize = 20.000
+Button_26.TextWrapped = true
+
+UICorner_26.Parent = Button_26
+
+Button_27.Name = "Button"
+Button_27.Parent = Page3
+Button_27.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_27.BorderSizePixel = 0
+Button_27.Position = UDim2.new(0.223000005, 0, 0.287, 0)
+Button_27.Size = UDim2.new(0, 100, 0, 23)
+Button_27.Font = Enum.Font.Unknown
+Button_27.Text = "Button "
+Button_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_27.TextSize = 20.000
+Button_27.TextWrapped = true
+
+UICorner_27.Parent = Button_27
+
+Button_28.Name = "Button"
+Button_28.Parent = Page3
+Button_28.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_28.BorderSizePixel = 0
+Button_28.Position = UDim2.new(0.423000008, 0, 0.287, 0)
+Button_28.Size = UDim2.new(0, 100, 0, 23)
+Button_28.Font = Enum.Font.Unknown
+Button_28.Text = "Button "
+Button_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_28.TextSize = 20.000
+Button_28.TextWrapped = true
+
+UICorner_28.Parent = Button_28
+
+Button_29.Name = "Button"
+Button_29.Parent = Page3
+Button_29.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_29.BorderSizePixel = 0
+Button_29.Position = UDim2.new(0.625, 0, 0.287, 0)
+Button_29.Size = UDim2.new(0, 100, 0, 23)
+Button_29.Font = Enum.Font.Unknown
+Button_29.Text = "Button "
+Button_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_29.TextSize = 20.000
+Button_29.TextWrapped = true
+
+UICorner_29.Parent = Button_29
+
+Button_30.Name = "Button"
+Button_30.Parent = Page3
+Button_30.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_30.BorderSizePixel = 0
+Button_30.Position = UDim2.new(0.824999988, 0, 0.287, 0)
+Button_30.Size = UDim2.new(0, 100, 0, 23)
+Button_30.Font = Enum.Font.Unknown
+Button_30.Text = "Button "
+Button_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_30.TextSize = 20.000
+Button_30.TextWrapped = true
+
+UICorner_30.Parent = Button_30
+
+Button_31.Name = "Button"
+Button_31.Parent = Page3
+Button_31.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_31.BorderSizePixel = 0
+Button_31.Position = UDim2.new(0.0179999992, 0, 0.517844856, 0)
+Button_31.Size = UDim2.new(0, 100, 0, 23)
+Button_31.Font = Enum.Font.Unknown
+Button_31.Text = "Button "
+Button_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_31.TextSize = 20.000
+Button_31.TextWrapped = true
+
+UICorner_31.Parent = Button_31
+
+Button_32.Name = "Button"
+Button_32.Parent = Page3
+Button_32.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_32.BorderSizePixel = 0
+Button_32.Position = UDim2.new(0.223000005, 0, 0.517844856, 0)
+Button_32.Size = UDim2.new(0, 100, 0, 23)
+Button_32.Font = Enum.Font.Unknown
+Button_32.Text = "Button "
+Button_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_32.TextSize = 20.000
+Button_32.TextWrapped = true
+
+UICorner_32.Parent = Button_32
+
+Button_33.Name = "Button"
+Button_33.Parent = Page3
+Button_33.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_33.BorderSizePixel = 0
+Button_33.Position = UDim2.new(0.423000008, 0, 0.517844856, 0)
+Button_33.Size = UDim2.new(0, 100, 0, 23)
+Button_33.Font = Enum.Font.Unknown
+Button_33.Text = "Button "
+Button_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_33.TextSize = 20.000
+Button_33.TextWrapped = true
+
+UICorner_33.Parent = Button_33
+
+Button_34.Name = "Button"
+Button_34.Parent = Page3
+Button_34.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_34.BorderSizePixel = 0
+Button_34.Position = UDim2.new(0.625, 0, 0.517844856, 0)
+Button_34.Size = UDim2.new(0, 100, 0, 23)
+Button_34.Font = Enum.Font.Unknown
+Button_34.Text = "Button "
+Button_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_34.TextSize = 20.000
+Button_34.TextWrapped = true
+
+UICorner_34.Parent = Button_34
+
+Button_35.Name = "Button"
+Button_35.Parent = Page3
+Button_35.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_35.BorderSizePixel = 0
+Button_35.Position = UDim2.new(0.824999988, 0, 0.517844856, 0)
+Button_35.Size = UDim2.new(0, 100, 0, 23)
+Button_35.Font = Enum.Font.Unknown
+Button_35.Text = "Button "
+Button_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_35.TextSize = 20.000
+Button_35.TextWrapped = true
+
+UICorner_35.Parent = Button_35
+
+Button_36.Name = "Button"
+Button_36.Parent = Page3
+Button_36.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_36.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_36.BorderSizePixel = 0
+Button_36.Position = UDim2.new(0.0179999992, 0, 0.737437606, 0)
+Button_36.Size = UDim2.new(0, 100, 0, 23)
+Button_36.Font = Enum.Font.Unknown
+Button_36.Text = "Button "
+Button_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_36.TextSize = 20.000
+Button_36.TextWrapped = true
+
+UICorner_36.Parent = Button_36
+
+Button_37.Name = "Button"
+Button_37.Parent = Page3
+Button_37.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_37.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_37.BorderSizePixel = 0
+Button_37.Position = UDim2.new(0.223000005, 0, 0.737437606, 0)
+Button_37.Size = UDim2.new(0, 100, 0, 23)
+Button_37.Font = Enum.Font.Unknown
+Button_37.Text = "Button "
+Button_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_37.TextSize = 20.000
+Button_37.TextWrapped = true
+
+UICorner_37.Parent = Button_37
+
+Button_38.Name = "Button"
+Button_38.Parent = Page3
+Button_38.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_38.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_38.BorderSizePixel = 0
+Button_38.Position = UDim2.new(0.423000008, 0, 0.737437606, 0)
+Button_38.Size = UDim2.new(0, 100, 0, 23)
+Button_38.Font = Enum.Font.Unknown
+Button_38.Text = "Button "
+Button_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_38.TextSize = 20.000
+Button_38.TextWrapped = true
+
+UICorner_38.Parent = Button_38
+
+Button_39.Name = "Button"
+Button_39.Parent = Page3
+Button_39.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_39.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_39.BorderSizePixel = 0
+Button_39.Position = UDim2.new(0.625, 0, 0.737437606, 0)
+Button_39.Size = UDim2.new(0, 100, 0, 23)
+Button_39.Font = Enum.Font.Unknown
+Button_39.Text = "Button "
+Button_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_39.TextSize = 20.000
+Button_39.TextWrapped = true
+
+UICorner_39.Parent = Button_39
+
+Button_40.Name = "Button"
+Button_40.Parent = Page3
+Button_40.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_40.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_40.BorderSizePixel = 0
+Button_40.Position = UDim2.new(0.824999988, 0, 0.737437606, 0)
+Button_40.Size = UDim2.new(0, 100, 0, 23)
+Button_40.Font = Enum.Font.Unknown
+Button_40.Text = "Button "
+Button_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_40.TextSize = 20.000
+Button_40.TextWrapped = true
+
+UICorner_40.Parent = Button_40
+
+NextButton.Name = "NextButton"
+NextButton.Parent = MainFrame
+NextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NextButton.BorderSizePixel = 0
+NextButton.Position = UDim2.new(0.494163126, 0, 0.13087219, 0)
+NextButton.Size = UDim2.new(0, 298, 0, 23)
+NextButton.Font = Enum.Font.Unknown
+NextButton.Text = ">"
+NextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+NextButton.TextSize = 20.000
+NextButton.TextWrapped = true
+
+UICorner_41.Parent = NextButton
+
+PrevButton.Name = "PrevButton"
+PrevButton.Parent = MainFrame
+PrevButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PrevButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PrevButton.BorderSizePixel = 0
+PrevButton.Position = UDim2.new(0.0299134701, 0, 0.130046338, 0)
+PrevButton.Size = UDim2.new(0, 275, 0, 23)
+PrevButton.Font = Enum.Font.Unknown
+PrevButton.Text = "<"
+PrevButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrevButton.TextSize = 20.000
+PrevButton.TextWrapped = true
+
+UICorner_42.Parent = PrevButton
+
+close.Name = "close"
+close.Parent = MainFrame
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.0182507262, 0, 0.919242382, 0)
+close.Size = UDim2.new(0, 603, 0, 23)
+close.Font = Enum.Font.Unknown
+close.Text = "close"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 20.000
+close.TextWrapped = true
+
+UICorner_43.Parent = close
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0190833993, 0, -0.0017850179, 0)
+TextLabel.Size = UDim2.new(0, 595, 0, 32)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Welcome to EvilDoll gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UICorner_44.Parent = TextLabel
+
+UICorner_45.Parent = MainFrame
+
+Page1.Name = "Page1"
+Page1.Parent = MainFrame
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(-0.000445857935, 0, 0.211197048, 0)
+Page1.Size = UDim2.new(0, 623, 0, 197)
+Page1.Style = Enum.FrameStyle.RobloxSquare
+
+Button_41.Name = "Button"
+Button_41.Parent = Page1
+Button_41.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_41.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_41.BorderSizePixel = 0
+Button_41.Position = UDim2.new(0.0184096918, 0, 0.0556070544, 0)
+Button_41.Size = UDim2.new(0, 100, 0, 23)
+Button_41.Font = Enum.Font.Unknown
+Button_41.Text = "Button "
+Button_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_41.TextSize = 20.000
+Button_41.TextWrapped = true
+
+UICorner_46.Parent = Button_41
+
+Button_42.Name = "Button"
+Button_42.Parent = Page1
+Button_42.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_42.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_42.BorderSizePixel = 0
+Button_42.Position = UDim2.new(0.222532958, 0, 0.0560000017, 0)
+Button_42.Size = UDim2.new(0, 100, 0, 23)
+Button_42.Font = Enum.Font.Unknown
+Button_42.Text = "Button "
+Button_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_42.TextSize = 20.000
+Button_42.TextWrapped = true
+
+UICorner_47.Parent = Button_42
+
+Button_43.Name = "Button"
+Button_43.Parent = Page1
+Button_43.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_43.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_43.BorderSizePixel = 0
+Button_43.Position = UDim2.new(0.423220038, 0, 0.0560000017, 0)
+Button_43.Size = UDim2.new(0, 100, 0, 23)
+Button_43.Font = Enum.Font.Unknown
+Button_43.Text = "Button "
+Button_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_43.TextSize = 20.000
+Button_43.TextWrapped = true
+
+UICorner_48.Parent = Button_43
+
+Button_44.Name = "Button"
+Button_44.Parent = Page1
+Button_44.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_44.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_44.BorderSizePixel = 0
+Button_44.Position = UDim2.new(0.624565125, 0, 0.0560000017, 0)
+Button_44.Size = UDim2.new(0, 100, 0, 23)
+Button_44.Font = Enum.Font.Unknown
+Button_44.Text = "Button "
+Button_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_44.TextSize = 20.000
+Button_44.TextWrapped = true
+
+UICorner_49.Parent = Button_44
+
+Button_45.Name = "Button"
+Button_45.Parent = Page1
+Button_45.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_45.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_45.BorderSizePixel = 0
+Button_45.Position = UDim2.new(0.824826181, 0, 0.0560000017, 0)
+Button_45.Size = UDim2.new(0, 100, 0, 23)
+Button_45.Font = Enum.Font.Unknown
+Button_45.Text = "Button "
+Button_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_45.TextSize = 20.000
+Button_45.TextWrapped = true
+
+UICorner_50.Parent = Button_45
+
+Button_46.Name = "Button"
+Button_46.Parent = Page1
+Button_46.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_46.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_46.BorderSizePixel = 0
+Button_46.Position = UDim2.new(0.0179999992, 0, 0.287377983, 0)
+Button_46.Size = UDim2.new(0, 100, 0, 23)
+Button_46.Font = Enum.Font.Unknown
+Button_46.Text = "Button "
+Button_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_46.TextSize = 20.000
+Button_46.TextWrapped = true
+
+UICorner_51.Parent = Button_46
+
+Button_47.Name = "Button"
+Button_47.Parent = Page1
+Button_47.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_47.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_47.BorderSizePixel = 0
+Button_47.Position = UDim2.new(0.223000005, 0, 0.287, 0)
+Button_47.Size = UDim2.new(0, 100, 0, 23)
+Button_47.Font = Enum.Font.Unknown
+Button_47.Text = "Button "
+Button_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_47.TextSize = 20.000
+Button_47.TextWrapped = true
+
+UICorner_52.Parent = Button_47
+
+Button_48.Name = "Button"
+Button_48.Parent = Page1
+Button_48.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_48.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_48.BorderSizePixel = 0
+Button_48.Position = UDim2.new(0.423000008, 0, 0.287, 0)
+Button_48.Size = UDim2.new(0, 100, 0, 23)
+Button_48.Font = Enum.Font.Unknown
+Button_48.Text = "Button "
+Button_48.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_48.TextSize = 20.000
+Button_48.TextWrapped = true
+
+UICorner_53.Parent = Button_48
+
+Button_49.Name = "Button"
+Button_49.Parent = Page1
+Button_49.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_49.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_49.BorderSizePixel = 0
+Button_49.Position = UDim2.new(0.625, 0, 0.287, 0)
+Button_49.Size = UDim2.new(0, 100, 0, 23)
+Button_49.Font = Enum.Font.Unknown
+Button_49.Text = "Button "
+Button_49.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_49.TextSize = 20.000
+Button_49.TextWrapped = true
+
+UICorner_54.Parent = Button_49
+
+Button_50.Name = "Button"
+Button_50.Parent = Page1
+Button_50.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_50.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_50.BorderSizePixel = 0
+Button_50.Position = UDim2.new(0.824999988, 0, 0.287, 0)
+Button_50.Size = UDim2.new(0, 100, 0, 23)
+Button_50.Font = Enum.Font.Unknown
+Button_50.Text = "Button "
+Button_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_50.TextSize = 20.000
+Button_50.TextWrapped = true
+
+UICorner_55.Parent = Button_50
+
+Button_51.Name = "Button"
+Button_51.Parent = Page1
+Button_51.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_51.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_51.BorderSizePixel = 0
+Button_51.Position = UDim2.new(0.0179999992, 0, 0.517844856, 0)
+Button_51.Size = UDim2.new(0, 100, 0, 23)
+Button_51.Font = Enum.Font.Unknown
+Button_51.Text = "Button "
+Button_51.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_51.TextSize = 20.000
+Button_51.TextWrapped = true
+
+UICorner_56.Parent = Button_51
+
+Button_52.Name = "Button"
+Button_52.Parent = Page1
+Button_52.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_52.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_52.BorderSizePixel = 0
+Button_52.Position = UDim2.new(0.223000005, 0, 0.517844856, 0)
+Button_52.Size = UDim2.new(0, 100, 0, 23)
+Button_52.Font = Enum.Font.Unknown
+Button_52.Text = "Button "
+Button_52.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_52.TextSize = 20.000
+Button_52.TextWrapped = true
+
+UICorner_57.Parent = Button_52
+
+Button_53.Name = "Button"
+Button_53.Parent = Page1
+Button_53.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_53.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_53.BorderSizePixel = 0
+Button_53.Position = UDim2.new(0.423000008, 0, 0.517844856, 0)
+Button_53.Size = UDim2.new(0, 100, 0, 23)
+Button_53.Font = Enum.Font.Unknown
+Button_53.Text = "Button "
+Button_53.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_53.TextSize = 20.000
+Button_53.TextWrapped = true
+
+UICorner_58.Parent = Button_53
+
+Button_54.Name = "Button"
+Button_54.Parent = Page1
+Button_54.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_54.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_54.BorderSizePixel = 0
+Button_54.Position = UDim2.new(0.625, 0, 0.517844856, 0)
+Button_54.Size = UDim2.new(0, 100, 0, 23)
+Button_54.Font = Enum.Font.Unknown
+Button_54.Text = "Button "
+Button_54.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_54.TextSize = 20.000
+Button_54.TextWrapped = true
+
+UICorner_59.Parent = Button_54
+
+Button_55.Name = "Button"
+Button_55.Parent = Page1
+Button_55.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_55.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_55.BorderSizePixel = 0
+Button_55.Position = UDim2.new(0.824999988, 0, 0.517844856, 0)
+Button_55.Size = UDim2.new(0, 100, 0, 23)
+Button_55.Font = Enum.Font.Unknown
+Button_55.Text = "Button "
+Button_55.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_55.TextSize = 20.000
+Button_55.TextWrapped = true
+
+UICorner_60.Parent = Button_55
+
+Button_56.Name = "Button"
+Button_56.Parent = Page1
+Button_56.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_56.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_56.BorderSizePixel = 0
+Button_56.Position = UDim2.new(0.0179999992, 0, 0.737437606, 0)
+Button_56.Size = UDim2.new(0, 100, 0, 23)
+Button_56.Font = Enum.Font.Unknown
+Button_56.Text = "Button "
+Button_56.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_56.TextSize = 20.000
+Button_56.TextWrapped = true
+
+UICorner_61.Parent = Button_56
+
+Button_57.Name = "Button"
+Button_57.Parent = Page1
+Button_57.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_57.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_57.BorderSizePixel = 0
+Button_57.Position = UDim2.new(0.223000005, 0, 0.737437606, 0)
+Button_57.Size = UDim2.new(0, 100, 0, 23)
+Button_57.Font = Enum.Font.Unknown
+Button_57.Text = "Button "
+Button_57.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_57.TextSize = 20.000
+Button_57.TextWrapped = true
+
+UICorner_62.Parent = Button_57
+
+Button_58.Name = "Button"
+Button_58.Parent = Page1
+Button_58.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_58.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_58.BorderSizePixel = 0
+Button_58.Position = UDim2.new(0.423000008, 0, 0.737437606, 0)
+Button_58.Size = UDim2.new(0, 100, 0, 23)
+Button_58.Font = Enum.Font.Unknown
+Button_58.Text = "Button "
+Button_58.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_58.TextSize = 20.000
+Button_58.TextWrapped = true
+
+UICorner_63.Parent = Button_58
+
+Button_59.Name = "Button"
+Button_59.Parent = Page1
+Button_59.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_59.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_59.BorderSizePixel = 0
+Button_59.Position = UDim2.new(0.625, 0, 0.737437606, 0)
+Button_59.Size = UDim2.new(0, 100, 0, 23)
+Button_59.Font = Enum.Font.Unknown
+Button_59.Text = "Button "
+Button_59.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_59.TextSize = 20.000
+Button_59.TextWrapped = true
+
+UICorner_64.Parent = Button_59
+
+Button_60.Name = "Button"
+Button_60.Parent = Page1
+Button_60.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Button_60.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_60.BorderSizePixel = 0
+Button_60.Position = UDim2.new(0.824999988, 0, 0.737437606, 0)
+Button_60.Size = UDim2.new(0, 100, 0, 23)
+Button_60.Font = Enum.Font.Unknown
+Button_60.Text = "Button "
+Button_60.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_60.TextSize = 20.000
+Button_60.TextWrapped = true
+
+UICorner_65.Parent = Button_60
+
+_1.Name = "1"
+_1.Parent = Page1
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.339486152, 0, 0.876197457, 0)
+_1.Size = UDim2.new(0, 200, 0, 50)
+_1.Font = Enum.Font.SourceSansBold
+_1.Text = "1"
+_1.TextColor3 = Color3.fromRGB(255, 0, 0)
+_1.TextSize = 20.000
+_1.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+_1.TextWrapped = true
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.00103936438, 0, 0.627397239, 0)
+open.Size = UDim2.new(0, 64, 0, 39)
+open.Font = Enum.Font.FredokaOne
+open.Text = "open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 20.000
+open.TextWrapped = true
+
+UICorner_66.Parent = open
+
+-- Scripts:
+
+local function TUJK_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local frame = script.Parent
+	local close = frame:WaitForChild("close")
+	local open = frame.Parent:WaitForChild("open")
+	
+	open.MouseButton1Click:Connect(function()
+		open.Visible = false
+		close.Visible = true
+		frame.Visible = true
+	end)
+	
+	close.MouseButton1Click:Connect(function()
+		open.Visible = true
+		close.Visible = false
+		frame.Visible = false
+	end)
+	
+end
+coroutine.wrap(TUJK_fake_script)()
+local function JKZB_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local frame = script.Parent
+	local close = frame:WaitForChild("close")
+	local open = frame.Parent:WaitForChild("open")
+	
+	open.MouseButton1Click:Connect(function()
+		open.Visible = false
+		close.Visible = true
+		frame.Visible = true
+	end)
+	
+	close.MouseButton1Click:Connect(function()
+		open.Visible = true
+		close.Visible = false
+		frame.Visible = false
+	end)
+	
+end
+coroutine.wrap(JKZB_fake_script)()
+local function PWSYWO_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local pages = {
+		script.Parent:WaitForChild("Page1"),
+		script.Parent:WaitForChild("Page2"),
+		script.Parent:WaitForChild("Page3")
+	}
+	
+	local currentPage = 1
+	
+	local function updatePages()
+		for i, page in ipairs(pages) do
+			page.Visible = (i == currentPage)
+		end
+	end
+	
+	updatePages()
+	
+	-- Botones de navegación
+	local nextButton = script.Parent:WaitForChild("NextButton")
+	local prevButton = script.Parent:WaitForChild("PrevButton")
+	
+	nextButton.MouseButton1Click:Connect(function()
+		if currentPage < #pages then
+			currentPage += 1
+			updatePages()
+		end
+	end)
+	
+	prevButton.MouseButton1Click:Connect(function()
+		if currentPage > 1 then
+			currentPage -= 1
+			updatePages()
+		end
+	end)
+	
+end
+coroutine.wrap(PWSYWO_fake_script)()
+local function XXEFKC_fake_script() -- Button_41.Script 
+	local script = Instance.new('Script', Button_41)
+
+	-- Asegúrate de que este LocalScript esté dentro de StarterGui o un Frame/ScreenGui
+	local button = script.Parent -- El botón al que está conectado este script
+	
+	button.MouseButton1Click:Connect(function()
+		-- Ejecuta el script externo al hacer clic en el botón
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/viboraon/infinity-yield/main/aa"))()
+		end)
+	
+		if not success then
+			warn("Error al ejecutar el script:", err)
+		end
+	end)
+	
+end
+coroutine.wrap(XXEFKC_fake_script)()
